@@ -15,6 +15,10 @@ public class Employee {
         System.out.println("Give me my money!");
     }
 
+    public void takeBreak() {
+        System.out.println("Drink coffee");
+    }
+
     public void work() {
         for (int i = 0; i < workHoursPerDay; i++) {
             System.out.println(i + " hours worked");

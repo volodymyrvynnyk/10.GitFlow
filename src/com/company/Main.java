@@ -7,5 +7,7 @@ public class Main {
         jack.work();
         Employee john = new Employee("John", 8);
         john.work();
+        jack.takeBreak();
+        jack.work();
     }
 }
