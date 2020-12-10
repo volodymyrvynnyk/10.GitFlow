@@ -11,6 +11,10 @@ public class Employee {
         this.workHoursPerDay = workHoursPerDay;
     }
 
+    public void takeBreak() {
+        System.out.println("Drink coffee");
+    }
+
     public void work() {
         for (int i = 0; i < workHoursPerDay; i++) {
             System.out.println(i + " hours worked");
