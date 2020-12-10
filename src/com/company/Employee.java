@@ -11,6 +11,10 @@ public class Employee {
         this.workHoursPerDay = workHoursPerDay;
     }
 
+    public void askEmployerForSalary() {
+        System.out.println("Give me my money!");
+    }
+
     public void takeBreak() {
         System.out.println("Drink coffee");
     }
@@ -19,6 +23,6 @@ public class Employee {
         for (int i = 0; i < workHoursPerDay; i++) {
             System.out.println(i + " hours worked");
         }
-        System.out.println("Finished");
+        System.out.println(this.name + " finished their work");
     }
 }
